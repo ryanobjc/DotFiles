@@ -1,0 +1,19 @@
+# start some things for xmonad land only.
+echo $STARTUP
+
+if [ "$STARTUP" = "gnome-session-xmonad" ]
+then
+
+trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 10 --transparent true --tint -x191970 --height 17 &
+
+gnome-sound-applet&
+
+#xscreensaver -no-splash &
+
+fi
+
+
+export M2_HOME=/usr/share/maven
+export JAVA_HOME=/usr/lib/jvm/jdk1.6.0_31
+export JAVA7_HOME=/usr/lib/jvm/jdk1.7.0_03
+export PATH=$PATH:$JAVA_HOME/bin:/usr/local/idea-IU-117.117/bin

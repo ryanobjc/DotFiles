@@ -1,0 +1,3 @@
+These directories go into /usr/share, overlapping with existing directories (eg: applications already exists, so the files inside go into the existing directory, not replacing the existing directory)
+
+However, gnome-session-xmonad goes into /usr/bin
