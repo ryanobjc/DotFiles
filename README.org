@@ -1,0 +1,6 @@
+* Config files for public reference
+
+These are my various config files for public reference, and posterity.
+
+I do not actively use this repo as the source of truth for my config
+files, so they represent a snapshot in time.
